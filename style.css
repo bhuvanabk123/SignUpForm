@@ -11,7 +11,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: url("images/bg-intro-mobile.png") no-repeat;
+    background: url("bg-intro-desktop.png") no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -60,7 +60,6 @@ p {
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    
     background: var(--blue);
     color: white;
     border: none;
@@ -71,10 +70,13 @@ p {
 }
 
 .btn_action span {
+   /* display: flex;*/
     font-family: "Poppins", sans-serif;
     margin: 0;
-    align-items: center;
+    /*align-items: center;*/
     padding: 0 3rem;
+    padding-inline-start: 0ch;
+    padding-inline-end: initial;
     font-weight: 400;
     font-size: 0.9rem;
 }
@@ -139,7 +141,7 @@ form a {
 }
 
 .error {
-    background: url("images/icon-error.svg") no-repeat;
+    background: url("icon-error.svg") no-repeat;
     background-position: 95% center;
     background-size: 1.5rem 1.5rem;
 }
